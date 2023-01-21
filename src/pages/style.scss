@@ -1,0 +1,241 @@
+
+
+.spex{
+    width: 100%;
+    position: relative;
+    &-header{
+        height: 700px;
+        padding:20px 50px 0px 150px;
+        background-color: #0D488E; /* 针对不支持渐变的浏览器 */
+       // background-image: linear-gradient(-90deg,  #0D488E,#0076FF);
+     background: -webkit-radial-gradient(bottom left, ellipse, #0076FF, #0D488E);
+     &-content{
+         
+         width: 80%;
+         height: 100%;
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+         float: right;
+         margin-top: -50px;
+         .home_logo{
+             width: 800px;
+         }
+         .text{
+             width: 617px;
+             text-align: left;
+             position: absolute;
+             top: 100px;
+             left: 150px;
+             font-size: 50px;
+            font-family: MusticaPro, MusticaPro-SemiBold;
+            color: #fff;
+         }
+     }
+    }
+   
+    &-card{
+        margin: 109px 150px;
+        font-size: 45px;
+        font-family: MusticaPro, MusticaPro-SemiBold;
+        font-weight: normal;
+        text-align: center;
+        color: #014089;
+       // background-color: aquamarine;
+       &-content{
+           display: flex;
+           list-style: none;
+           justify-content: space-around;
+       }
+       .work-content{
+           display: flex;
+            align-items: center;
+            column-gap: 20px;           
+       }
+       .work-card{
+        column-gap: 52px;
+        position: relative;
+        .work_logo{
+            width: 786px;
+        }
+         }
+        .content{
+            list-style: none;
+            width: 50%;
+            font-size: 16px;
+            font-family: PingFangSC, PingFangSC-Light;
+            font-weight: 300;
+            text-align: left;
+            color: #014089;
+            &-item{
+                //display: flex;
+                opacity: 1;
+               // background: #f6f8fc;
+               // border-radius: 10px;
+                padding: 22px 20px;
+                .icons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 60px;
+                height: 60px;
+                background: #d3f0fe;
+                border-radius: 6px;
+                     float: left;
+
+                }
+                
+                .item-wrap{
+                    flex: 1;
+                    overflow: hidden;
+                    padding-left: 30px;
+                    opacity: 0.7;
+                   
+                    .title{
+                         margin-top: -6px;
+                    margin-bottom: 8px;
+                        font-size: 24px;
+                        font-family: MusticaPro, MusticaPro-SemiBold;
+                        }
+                }
+                &:hover{
+                background: #f6f8fc;
+                border-radius: 10px;
+                .item-wrap{
+                    opacity: 1;
+                }
+                }
+                
+            }
+        }
+        .pic{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+        .work-item{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 30px;
+            flex: 1;
+            padding: 25px 20px;
+            border: 1px solid #ccd9e7;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px 0px #f6f8fc; 
+            font-size: 16px;
+            font-family: PingFangSC, PingFangSC-Regular;
+            font-weight: 400;
+            .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 110px;
+            height: 110px;
+            background: #eff3fc;
+            border-radius: 50%; 
+            }
+            .icon_po{
+                position: absolute;
+                display: block;
+                &_arrow{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 20px;
+                height: 20px;
+                background: #ffffff;
+                border: 1px solid #ccd9e7;
+                border-radius: 50%;
+                }
+                &_left{
+                    height: 50%;
+                    border-bottom: 1px solid red;
+                }
+            }
+        }
+        .work-item-content{
+            position: relative;
+            background: #ffffff;
+            border: 1px solid #ccd9e7;
+            border-radius: 10px;
+            padding: 20px 18px;
+            width: 200px;
+            height: 96px;
+            text-align: left;
+            font-size: 14px;
+            font-family: PingFangSC, PingFangSC-Regular;
+            font-weight: 400;
+            .icon{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: -15px;
+                left: 20px;
+                width: 30px;
+                height: 30px;
+                background: #eff3fc;
+                border-radius: 50%;
+               &-main{
+                width: 20px;
+                height: 20px;
+                font-size: 20px;
+                font-family: MusticaPro, MusticaPro-SemiBold;
+                background: #0077fe;
+                color: #fff;
+                text-align: center;
+                line-height: 20px;
+                border-radius: 50%;
+               }
+            }
+        }
+        .work-pic{
+            width: 157px;
+        }
+        .step{
+            position: absolute;
+        }
+        .step1{
+            left: 40px;
+            top: 55px;
+        }
+        .step2{
+            right: 40px;
+            top: 55px;
+        }
+        .step3{
+            bottom: 55px;
+            left: 40px;
+        }
+        .step4{
+            right:40px;
+            bottom: 55px;
+        }
+    }
+    &-footer{
+        padding: 50px 150px 24px 150px;
+        background-color: #0D488E; /* 针对不支持渐变的浏览器 */
+        &-top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .footer-link{
+                opacity: 0.7;
+                display: flex;
+                align-items: center;
+                column-gap: 25px;
+            }
+        }
+        .text{
+            font-size: 16px;
+            font-family: PingFangSC, PingFangSC-Regular;
+            font-weight: 400;
+            color: #fff;
+            margin-top: 60px;
+        }
+    }
+}
