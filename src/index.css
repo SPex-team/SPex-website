@@ -17,3 +17,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rewards_svg,.better_svg{
+  display: block;
+  width: 38px;
+  height: 38px;
+}
+.aonymity_svg{
+  display: block;
+  width: 34px;
+  height: 42px;
+}
+.special_svg{
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.rewards_logo_svg{
+  display: block;
+   width:480px;
+  height:396px
+}
+.aonymity_logo_svg{
+  display: block;
+   width:496px;
+    height:460px
+}
+.special_logo_svg{
+  display: block;
+  width:540px;
+    height:396px
+}
+.better_logo_svg{
+  display: block;
+  width: 496px;
+  height: 437px;
+}
+.logo_svg{
+  display: block;
+  width:130px;
+  height:48px
+}
+
+.twitter_svg{
+  width:27px;
+    height:23px
+}
+.medium_svg{
+    width:28px;
+    height:22px
+}
+.githup_svg{
+   width:26px;
+    height:25px
+}
+
+.text_svg{
+  width: 26px;
+  height: 26px;
+}

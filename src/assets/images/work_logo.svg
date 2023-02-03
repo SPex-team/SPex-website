@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 786 436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 9</title>
+    <defs>
+        <filter x="-18.8%" y="-16.2%" width="137.5%" height="131.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.470588235   0 0 0 0 0.682352941   0 0 0 0 0.835294118  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0076FF" offset="0%"></stop>
+            <stop stop-color="#D3F0FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="20230112-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-629.000000, -35.000000)">
+            <g id="编组-10" transform="translate(629.000000, 35.000000)">
+                <g id="编组-9" transform="translate(0.000000, 0.000000)">
+                    <circle id="椭圆形备份-4" fill="#D3F0FE" opacity="0.1" cx="393" cy="218" r="218"></circle>
+                    <circle id="椭圆形备份-4" fill="#D3F0FE" opacity="0.3" cx="393.335484" cy="218.335484" r="160.335484"></circle>
+                    <circle id="椭圆形备份-4" fill="#D3F0FE" opacity="0.5" cx="392.922581" cy="217.922581" r="113.922581"></circle>
+                    <circle id="椭圆形备份-4" fill="#D3F0FE" cx="392.516129" cy="217.516129" r="74.516129"></circle>
+                    <g id="编组" filter="url(#filter-1)" transform="translate(349.000000, 167.000000)">
+                        <polygon id="Fill-1" fill="#218465" points="0.35483871 45.0977034 20.3548387 56.4516129 20.3548387 36.8055224 0.35483871 25.4516129"></polygon>
+                        <polygon id="Fill-2" fill="#3BF4BB" points="44.8227989 -0.548387097 0.35483871 25.2856102 20.2906937 36.8686116 44.8227989 22.6169648 69.4189837 36.8686116 89.3548387 48.4516129 89.3548387 25.2856102"></polygon>
+                        <polygon id="Fill-3" fill="#0077FE" points="-0.64516129 76.6176156 43.8231223 102.451613 88.3548387 76.6176156 68.4188387 65.0346142 43.8231223 79.2856102 -0.64516129 53.4516129"></polygon>
+                        <polygon id="Fill-4" fill="#014089" points="68.3548387 65.0977034 88.3548387 76.4516129 88.3548387 56.8055224 68.3548387 45.4516129"></polygon>
+                    </g>
+                    <polygon id="Fill-1" fill="url(#linearGradient-2)" points="13.9166492 286 0 294.706382 13.9166492 303.414648 13.9166492 298.166708 341.961908 298.166708 341.961908 291.247941 13.9166492 291.247941"></polygon>
+                    <polygon id="Fill-1备份" fill="url(#linearGradient-2)" transform="translate(170.980954, 140.707324) scale(-1, 1) translate(-170.980954, -140.707324) " points="13.9166492 132 0 140.706382 13.9166492 149.414648 13.9166492 144.166708 341.961908 144.166708 341.961908 137.247941 13.9166492 137.247941"></polygon>
+                    <polygon id="Fill-1" fill="url(#linearGradient-2)" transform="translate(614.980954, 294.707324) scale(-1, 1) translate(-614.980954, -294.707324) " points="457.916649 286 444 294.706382 457.916649 303.414648 457.916649 298.166708 785.961908 298.166708 785.961908 291.247941 457.916649 291.247941"></polygon>
+                    <polygon id="Fill-1备份" fill="url(#linearGradient-2)" points="457.916649 132 444 140.706382 457.916649 149.414648 457.916649 144.166708 785.961908 144.166708 785.961908 137.247941 457.916649 137.247941"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

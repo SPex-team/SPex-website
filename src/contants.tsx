@@ -3,7 +3,7 @@
 export const solvTypes = [
   {
     title: "Rewards Immediately",
-    text: "SPs realize the future unlocking rewards immediately (no need to wait 180 days)",
+    text: "SPs realize the future unlocking rewards immediately (no need to wait for 180 days)",
     key: "rewards",
   },
   {
@@ -18,7 +18,7 @@ export const solvTypes = [
   },
   {
     title: "Better Utilization",
-    text: "Better utilization of SP resources lightens the network burden caused by the over-use of ID numbers, effectively recycling the already existing ones; also provides the marketplace when later the network could charge a fee for node creation to increase revenue (an FIP required)",
+    text: "Lightens the network burden caused by the over-use of ID numbers",
     key: "better",
   },
 ];
@@ -28,8 +28,10 @@ export const worksList: any = [
     key: "step1",
     text: (
       <div>
-        <div>Sellers change the Owner Address to the SPex smart contract</div>
-        <div>Set prices and place sell orders</div>
+        <div>
+          Sellers change the Owner Address to the SPex smart contract and place
+          sell orders
+        </div>
       </div>
     ),
   },
@@ -54,17 +56,18 @@ export const worksList: any = [
 export const linkList = [
   {
     key: "twitter",
-    link: "",
+    link: "https://twitter.com/FVM_Spex",
   },
   {
-    key: "m",
-    link: "",
+    key: "medium",
+    link: "https://medium.com/@FVM_Spex",
   },
   {
     key: "githup",
-    link: "",
+    link: "https://github.com/orgs/SPex-team/repositories",
+  },
+  {
+    key: "text",
+    link: "https://docs.spex.website/",
   },
 ];
-
-export const px2vw = (px: number): string =>
-  `${(window.screen.width / 1440) * px}vw`;
