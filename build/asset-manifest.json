@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.54fa256c.css",
-    "main.js": "/static/js/main.0d88b50a.js",
+    "main.css": "/static/css/main.84994d12.css",
+    "main.js": "/static/js/main.2bdd591e.js",
     "static/js/787.578ea536.chunk.js": "/static/js/787.578ea536.chunk.js",
     "static/media/MusticaPro-SemiBold.otf": "/static/media/MusticaPro-SemiBold.b1a800b42a1c7df2493c.otf",
     "static/media/home.svg": "/static/media/home.14874bafb1c5149e371ba1b6c0299e9e.svg",
@@ -9,12 +9,12 @@
     "static/media/girl.svg": "/static/media/girl.8a047abfb29af05252b1d2528280581e.svg",
     "static/media/work_logo.svg": "/static/media/work_logo.fb56248d0c4a2c31972d379c07d10223.svg",
     "index.html": "/index.html",
-    "main.54fa256c.css.map": "/static/css/main.54fa256c.css.map",
-    "main.0d88b50a.js.map": "/static/js/main.0d88b50a.js.map",
+    "main.84994d12.css.map": "/static/css/main.84994d12.css.map",
+    "main.2bdd591e.js.map": "/static/js/main.2bdd591e.js.map",
     "787.578ea536.chunk.js.map": "/static/js/787.578ea536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fa256c.css",
-    "static/js/main.0d88b50a.js"
+    "static/css/main.84994d12.css",
+    "static/js/main.2bdd591e.js"
   ]
 }

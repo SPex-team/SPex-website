@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 19</title>
+    <g id="20230112-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-354.000000, -69.000000)">
+            <g id="编组" transform="translate(354.000000, 69.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 50 50 50 50 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#218465" points="5.22026455 22.4682275 14.0816402 27.5893915 14.0816402 18.7280159 5.22026455 13.6068519"></polygon>
+                <polygon id="Fill-3" fill="#3BF4BB" points="24.985582 2.18492063 5.2202381 13.6068783 14.0816138 18.7280423 24.985582 12.4272487 35.9183862 18.7280423 44.7797619 23.8492063 44.7797619 13.6068783"></polygon>
+                <polygon id="Fill-4" fill="#0077FE" points="35.9184127 31.2720106 24.9856085 37.5728042 5.22026455 26.1508466 5.22026455 36.3931746 24.9856085 47.8151323 44.7797884 36.3931746"></polygon>
+                <polygon id="Fill-5" fill="#014089" points="44.7798148 27.531746 35.9184392 22.410582 35.9184392 31.2719577 44.7798148 36.3931217"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
